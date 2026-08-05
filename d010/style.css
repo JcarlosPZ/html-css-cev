@@ -1,0 +1,168 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'android';
+    src: url('fontes/idroid.otf') format('opentype');
+}
+
+
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+
+
+
+a, mark{
+    color: #1E5F3C;
+    background-color: transparent;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+body{
+    background-color: #E6E4C2;
+    min-height: 100vh;
+}
+
+header{
+    background-image: linear-gradient(#3CD983,#195B38);
+    color: white;
+    height: 12em;
+}
+
+header h1{
+    font-family: 'Bebas Neue',sans-serif;
+    font-size: 2.8rem;
+    text-align: center;
+    padding-top: 30px;
+}
+
+header p{
+    max-width: 445px;
+    margin: 20px auto 0 auto;
+    text-align: center;
+    line-height: 1.5;
+    
+}
+
+#navegacao{
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+#navegacao li{
+    display: inline;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    
+}
+
+li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    background-color: white;
+    border-radius: 0 0 10px 10px;
+    text-align: justify;
+    padding: 20px;
+    min-width: 320px;
+    max-width: 800px;
+    margin: auto;
+}
+
+
+.droid{
+    font-family: 'android';
+    color: #1E5F3C;
+    background-image: linear-gradient(to right,#86f1b6,#ffff);
+    margin: 0 20px 15px 20px;
+    padding: 0 8px;
+}
+
+#inicio{
+    background-image: none;
+    padding: 20px 0;
+    font-size: 2rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+p{
+    text-indent: 2%;
+    margin: 0 20px 20px 20px;
+    text-align: justify;
+    max-height: 100%;
+}
+
+img{
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+}
+
+.video{
+    display: flex;
+    background-color: #1A5C38;
+    justify-content: center;
+    padding: 20px;
+}
+
+aside{
+    background-color: #C5EBD6;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+footer{
+    background-color: #1A5C38;
+    margin: 0;
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+footer p{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+aside h2{
+    background-color: #2FA866;
+    color: white;
+    border-radius: 20px 20px 0 0;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.versoes ul{
+    display: inline-block;
+    margin: 10px 0 40px 10px;
+    list-style: none;
+}
+
+.link-ex::after{
+    content: '📎';
+}
+
+.link-ex:hover{
+    color: #2FA866;
+}
+
+.versoes ul li::before{
+    content: '\2714';
+    margin-right: 3px;
+}

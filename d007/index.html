@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio das Imagens Flexiveis</title>
+</head>
+<body>
+    <header>
+        <h1>Desafio da imagem que muda de forma</h1>
+        <p>Bora testar se eu consigo adptar esse site ao tamanho da sua tela e deixar ele responsívo &#129327;.</p>
+    </header>
+    <main>
+        <picture>
+            <source media="(max-width: 500px)" srcset="img/paisagem-p.png" type="image/png">
+            <source media="(max-width: 900px)" srcset="img/paisagem-m.png" type="image/png">
+            <img src="img/paisagem-g.png" alt="Paisagem de um precipício">
+        </picture>
+    </main>
+</body>
+</html>
