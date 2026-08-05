@@ -113,6 +113,10 @@ img{
     margin: 20px auto;
 }
 
+article > img{
+    width: 200px;
+}
+
 .video{
     display: flex;
     background-color: #1A5C38;
